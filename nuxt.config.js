@@ -41,6 +41,10 @@ export default {
   modules: [
     '@nuxtjs/pwa',
   ],
+  manifest: {
+    name: 'すみません',
+    lang: 'ja'
+  },
 
   /*
   ** Build configuration
