@@ -1,12 +1,21 @@
 <template>
   <section class="container">
-    <div>
-      <h1 class="title">
-        &#x1f37a;
-      </h1>
-    </div>
+    <button class="sumimasen" @click="sumimasen">&#x1f37a;</button>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    sumimasen() {
+      const ssu = new SpeechSynthesisUtterance();
+      ssu.text  = 'すみませーーーん';
+      ssu.lang  = 'ja-JP';
+      speechSynthesis.speak(ssu);
+    },
+  }
+}
+</script>
 
 <style>
 .container {
@@ -18,13 +27,16 @@
   text-align: center;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.sumimasen {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 5px #f3a600;
+  border: none;
+  font-size: 60px;
 }
 </style>
