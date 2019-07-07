@@ -43,6 +43,7 @@ export default {
   ],
   manifest: {
     name: 'すみません',
+    short_name: 'すみません',
     lang: 'ja'
   },
 
