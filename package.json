@@ -1,7 +1,7 @@
 {
   "name": "sumimasen",
   "version": "1.0.0",
-  "description": "My luminous Nuxt.js project",
+  "description": "騒がしい居酒屋で「すみません」を発することが面倒臭いすべての人に捧げます",
   "author": "IZUMIRU",
   "private": true,
   "scripts": {
