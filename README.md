@@ -1,22 +1,19 @@
-# sumimasen
+# 親指ですみません
 
-> My luminous Nuxt.js project
+- https://sumimasen.beer/
 
-## Build Setup
+<img  src="https://user-images.githubusercontent.com/11635641/60889548-3637d900-a294-11e9-8d8b-151ee109511a.png">
 
-``` bash
-# install dependencies
-$ yarn install
+## 概要
 
-# serve with hot reload at localhost:3000
-$ yarn run dev
+- 騒がしい居酒屋でもワンタップで「すみません」と店員さんを呼んでくれます。
+- シャイガールなので声は小さいです。
+- PWAなので、ホーム画面に追加して使ってください。
 
-# build for production and launch server
-$ yarn run build
-$ yarn start
+## アーキテクチャ
 
-# generate static project
-$ yarn run generate
-```
+![image](https://user-images.githubusercontent.com/11635641/60890500-55d00100-a296-11e9-8ce6-bc697254f241.png)
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## Qiita
+
+- []()

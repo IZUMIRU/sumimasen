@@ -14,6 +14,11 @@ export default {
     sumimasen() {
       const ssu = new SpeechSynthesisUtterance();
       ssu.text  = 'すみませーん';
+
+      if (Math.floor(Math.random() * 101) === 0) {
+        ssu.text  = 'ビールください';
+      }
+
       ssu.lang  = 'ja-JP';
       speechSynthesis.speak(ssu);
     },
