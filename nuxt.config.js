@@ -12,7 +12,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description },
-      { hid: 'og:image', property: 'og:image', content: '/ogp.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://sumimasen.beer/ogp.png' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@IZUMIRU0313' },
     ],
