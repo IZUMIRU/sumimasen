@@ -45,8 +45,8 @@ export default {
     '@nuxtjs/pwa',
   ],
   manifest: {
-    name: 'すみません',
-    short_name: 'すみません',
+    name: '親指ですみません',
+    short_name: '親指ですみません',
     lang: 'ja'
   },
 
