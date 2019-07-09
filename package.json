@@ -1,7 +1,7 @@
 {
   "name": "sumimasen",
   "version": "1.0.0",
-  "description": "騒がしい居酒屋でもワンタップで店員さんを呼んでくれます。シャイガールなので声は小さいです。PWAです。",
+  "description": "騒がしい居酒屋でもワンタップで店員さんを呼びます。シャイなので声は小さいです。PWAなのでホーム画面に居候させてください。",
   "author": "IZUMIRU",
   "private": true,
   "scripts": {
