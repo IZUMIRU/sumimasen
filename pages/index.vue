@@ -24,9 +24,9 @@ export default {
 <style>
 .container {
   position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .toggle {
   box-shadow: inset 0 0 35px 5px rgba(0, 0, 0, 0.25), inset 0 2px 1px 1px rgba(255, 255, 255, 0.9), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.25);
@@ -35,6 +35,7 @@ export default {
   position: relative;
   height: 140px;
   width: 140px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .toggle:before {
   box-shadow: 0 0 17.5px 8.75px #fff;
