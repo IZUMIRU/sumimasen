@@ -15,7 +15,7 @@ export default {
       const ssu = new SpeechSynthesisUtterance();
       ssu.text  = 'すみませーん';
 
-      if (Math.floor(Math.random() * 31) === 0) {
+      if (Math.floor(Math.random() * 11) === 0) {
         ssu.text  = 'ビールください';
       }
 
