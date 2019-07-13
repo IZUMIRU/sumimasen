@@ -16,7 +16,7 @@ export default {
       ssu.text  = 'すみませーん';
 
       if (Math.floor(Math.random() * 11) === 0) {
-        ssu.text  = 'ビールください';
+        ssu.text  = 'あービールのみたい';
       }
 
       ssu.lang  = 'ja-JP';
