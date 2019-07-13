@@ -16,4 +16,4 @@
 
 ## Qiita
 
-- []()
+- [[Nuxt/WebSpeechAPI]騒がしい居酒屋でもワンタップで店員さんを呼ぶサービス「親指ですみません」](https://qiita.com/IZUMIRU/items/7a8d47f672edfd25cec7)
